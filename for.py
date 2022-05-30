@@ -27,7 +27,7 @@ number = 0
 
 
 while total_number< 101:
-  number= total_number + number # Document your understanding
+  number= total_number + number # Document your understanding of this while loop
   total_number +=1
 print(number)
 
