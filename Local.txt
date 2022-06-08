@@ -1,3 +1,6 @@
 Code in global scope can not use any local variables
 Code in local scope can use global variables
 Code in a function's local scope cannot use variables in another functions Local scope
+Variable names in different local scopes do not matter
+Calling Global variables into local statements can be done using the "global" keyword
+if there is no variable in a fucntion python searches the global scope
