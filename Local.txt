@@ -1,0 +1,3 @@
+Code in global scope can not use any local variables
+Code in local scope can use global variables
+Code in a function's local scope cannot use variables in another functions Local scope
