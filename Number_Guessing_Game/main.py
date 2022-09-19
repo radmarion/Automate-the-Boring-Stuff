@@ -8,12 +8,13 @@ print('Well, ' + name + " I am thinking of a number between 1 and 21")
 print('You are guessing Whole numbers only')
 print('You have 7 Guesses')
 
+#Code Test for Debug next line , Remove the comment # to debug
+# print('DEBUG : THE SECRETE NUMBER IS ' + str(number))
+
 #Guess Control Section
 for guessesTaken in range(1,8):
-  try:
-    guess = int(input('Take a guess '))
-  except ValueError:
-    print('Please enter a number')
+  guess = int(input('Take a guess ')) # Come back to add a TRY phrase
+  
   if guess < number:
      print('Your guess is too low')
   elif guess > number:
@@ -24,7 +25,7 @@ for guessesTaken in range(1,8):
 
   
 if guess == number:
-  print('Good job ' + name + 'You guessed the number in ' + str(guessesTaken) )
+  print('Good job ' + name + ' You guessed the number in ' + str(guessesTaken)  + ' guesses')
 
 else : 
   print('The correct answer is actually ' + str(number) )
